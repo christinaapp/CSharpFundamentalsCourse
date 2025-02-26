@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BethanysPieShopHRM.HR
 {
-    internal class Employee: IEmployee
+    public class Employee: IEmployee
     {
         private string firstName;
         private string lastName;
@@ -138,6 +138,7 @@ namespace BethanysPieShopHRM.HR
         public void PerformWork(int numberOfHours)
         {
             NumberOfHoursWorked += numberOfHours;
+         
 
             Console.WriteLine($"{FirstName} {LastName} has worked for {numberOfHours} hour(s)!");
         }

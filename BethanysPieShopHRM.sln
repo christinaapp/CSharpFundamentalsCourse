@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopHRM", "BethanysPieShopHRM\BethanysPieShopHRM.csproj", "{2E7CF840-EBF4-4D5C-BDD9-0C4E8A8C3CBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopHRMTests", "BethanysPieShopHRMTests\BethanysPieShopHRMTests.csproj", "{389E827C-00AB-4035-B439-0046C29F952B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2E7CF840-EBF4-4D5C-BDD9-0C4E8A8C3CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E7CF840-EBF4-4D5C-BDD9-0C4E8A8C3CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E7CF840-EBF4-4D5C-BDD9-0C4E8A8C3CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{389E827C-00AB-4035-B439-0046C29F952B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389E827C-00AB-4035-B439-0046C29F952B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389E827C-00AB-4035-B439-0046C29F952B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389E827C-00AB-4035-B439-0046C29F952B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
